@@ -9,7 +9,7 @@ def solution(distance, rocks, n):
         min_dist = float("inf")
         mid = (left + right) // 2
         remove_cnt = 0
-DX            l l;
+
         for rock in rocks:
             diff = rock - curr
             if diff < mid:
